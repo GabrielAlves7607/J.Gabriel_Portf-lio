@@ -187,8 +187,9 @@ body::before {
 /* Seção de Contato */
 #contato {
   padding: 40px;
-  background-color: #f9f9f9;
+  background-color: #0e0e0e;
   text-align: center;
+  border-top: 1px solid #222;
 }
 
 #contato h2 {
@@ -209,24 +210,25 @@ body::before {
 
 /* Estilos para os botões sociais */
 .btn-social {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #1e1e1e;
   border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  text-align: center;
-  padding: 10px;
+  box-shadow: 0 0 10px #6a00ff55;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn-social img {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.3s;
-}
-
-.btn-social:hover img {
+.btn-social:hover {
+  background-color: #3700b3;
   transform: scale(1.1);
 }
 
+.btn-social img {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 0 5px #bb86fc88);
+  transition: transform 0.3s ease;
+}

@@ -6,9 +6,9 @@ Sou **João Gabriel Alves Rocha**, estudante de Redes de Computadores e desenvol
 ## 💼 Sobre Mim
 
 - 🎓 Estudante na **EEEP Leonel de Moura Brizola** (2023–2025)
-- 💻 Experiência com **Python**, **JavaScript**, **C#**, **HTML/CSS** e **Git**
+- 💻 Experiência com **Python**, **JavaScript**, **C#**, **HTML/CSS** , **Git** e **GitHub**
 - 🚀 Já atuei em projetos na **PYORG** e **TECHNOVA**
-- 📚 Estudo constantemente por cursos da Udemy e Curso em Vídeo
+- 📚 Estudo constantemente por cursos da Udemy, Curso em Vídeo e Dio
 - 🔧 Apaixonado por sistemas interativos e projetos práticos
 
 ## 🛠️ Tecnologias Utilizadas
@@ -27,5 +27,5 @@ Sou **João Gabriel Alves Rocha**, estudante de Redes de Computadores e desenvol
 
 ## 🌍 Acesse
 
-Você pode visualizar meu portfólio online [aqui](j-gabriel-portfolio.vercel.app)  
+Você pode visualizar meu portfólio (j-gabriel-portfolio.vercel.app)
 Ou navegar localmente abrindo o arquivo `index.html` no navegador.

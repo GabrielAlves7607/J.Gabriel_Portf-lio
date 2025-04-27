@@ -77,20 +77,22 @@ header {
 }
 
 .hero-img {
-  max-width: 340px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: radial-gradient(circle at center, #6a00ff 0%, #3700b3 100%);
   padding: 10px;
   box-shadow: 0 0 30px #6a00ff60;
   animation: fadeInUp 1s ease-out both;
+  overflow: hidden;
 }
 
 .hero-img img {
   width: 100%;
-  border-radius: inherit;
+  height: 100%;
+  border-radius: 50%;
   object-fit: cover;
 }
-
 
 section {
   padding: 40px 10%;

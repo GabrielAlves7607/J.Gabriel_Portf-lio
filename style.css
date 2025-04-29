@@ -287,3 +287,90 @@ body::before {
 .card-btn:hover {
   background-color: #a46ae0;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5%;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .hero-buttons a {
+    margin: 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
+  }
+
+  section {
+    padding: 30px 5%;
+  }
+
+  .tech-grid img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn-social {
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-social img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .card strong {
+    font-size: 1rem;
+  }
+
+  .card-btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
